@@ -29,6 +29,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - BREITNER SUAREZ PERALTA : Estilos (CSS)
 - EDWIN RAFAEL CERA ROMERO : Estructura (HTML)
 
+## Institución
+Universidad de la Costa (CUC)
+
 ## Funcionalidades Principales
 
   Creación rápida: Permite añadir nuevas tareas a la lista general escribiendo en el campo principal, presionando el botón `+`y pulsando Enter en el teclado.
