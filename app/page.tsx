@@ -160,7 +160,7 @@ export default function Home() {
               <button
                 className="btn-eliminar"
                 type="button"
-                aria-label="Eliminar tarea"
+                aria-label="Eliminar tarea(s)"
                 onClick={() => handleDeleteTask(task.id)}
               >
                 🗑
