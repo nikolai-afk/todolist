@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Home() {
   const [taskText, setTaskText] = useState("");
   const [tasks, setTasks] = useState([
-  { id: 1, text: "Solicitar cita médica", completed: true, isEditing: false },
+  { id: 1, text: "Solicitar citas médicas", completed: true, isEditing: false },
   { id: 2, text: "Comprar leche y pan", completed: false, isEditing: false }
 ]);
   const [deletedTasks, setDeletedTasks] = useState<string[]>([]);
@@ -160,7 +160,7 @@ export default function Home() {
               <button
                 className="btn-eliminar"
                 type="button"
-                aria-label="Eliminar tarea(s)"
+                aria-label="Eliminar tarea"
                 onClick={() => handleDeleteTask(task.id)}
               >
                 🗑
